@@ -8,8 +8,8 @@ app = Flask(__name__, static_folder=".")
 
 DB_CONFIG = {
     "host": "localhost",
-    "user": "root",
-    "password": "1234567Ew7$",  # altere
+    "user": "host",
+    "password": "sua senha",  
     "database": "portal_aluno"
 }
 
