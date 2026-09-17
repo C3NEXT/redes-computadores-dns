@@ -56,9 +56,8 @@ A[Usuário acessa o domínio] --> B[/etc/hosts resolve para 127.0.0.1/]
 B --> C[Flask serve o index.html]
 C --> D[Usuário preenche RA e Senha]
 D --> E[POST /login]
-E --> F[Flask aplica SHA-256 na senha]
-F --> G[INSERT no MySQL]
-G --> H[Confirmação de Cadastro]
+E --> F[INSERT no MySQL]
+F --> G[Confirmação de Cadastro]
 ```
 
 ## 🏗️ Arquitetura (C4 Model)
